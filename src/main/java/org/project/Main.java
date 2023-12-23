@@ -13,7 +13,7 @@ class Panel extends JPanel{
     String welcomeText = "This program lets the user select a .txt file, edit it, and save it to its current location";
     JLabel welcomeLabel = new JLabel(welcomeText);
     JButton selectButton = new JButton("select txt file");
-    JLabel fileName = new JLabel("filename.txt");
+    JLabel fileName = new JLabel("");
     JTextArea textArea = new JTextArea("");
     JScrollPane scroll = new JScrollPane(textArea);
     JButton saveButton = new JButton("save");
